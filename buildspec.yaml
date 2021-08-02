@@ -8,5 +8,6 @@ phases:
       - ./gradlew assembleAndroidTest
 artifacts:
   files:
-      - './android/app/build/outputs/**/**/*.apk'
+      - './android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk'
+      - './android/app/build/outputs/apk/debug/app-debug.apk'
   discard-paths: yes
