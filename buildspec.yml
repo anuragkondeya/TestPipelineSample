@@ -5,6 +5,7 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
+      - ./gradlew assembleAndroidTest
 artifacts:
   files:
      - './android/app/build/outputs/**/*.apk'
